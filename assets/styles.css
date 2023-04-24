@@ -18,6 +18,7 @@ header {
     border-bottom: 5px inset gray;
     border-left: 5px inset gray;
     border-right: 5px inset gray;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -48,4 +49,23 @@ nav a {
     text-decoration: none;
     border-bottom: 3px solid #006fcd;
     font-size: 20px;
+}
+
+hr {
+    border-width: 2px;
+    margin-bottom: 20px;
+    border-color: #2e393d;
+}
+
+#about-me {
+    margin-bottom: 50px;
+}
+
+#about-me h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    line-height: 1.5;
 }
