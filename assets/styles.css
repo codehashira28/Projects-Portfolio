@@ -1,3 +1,4 @@
+/* CSS reset styling */
 html, * {
     padding: 0;
     margin: 0;
@@ -10,6 +11,7 @@ body {
     background-color: #aebfd4;
 }
 
+/* Header section styling for heading, avatar, and navigation */
 header {
     display: flex;
     justify-content: space-between;
@@ -40,15 +42,12 @@ nav {
 }
 
 nav a {
-    padding-bottom: 2px;
-    margin-left: 10px;
-}
-
-nav a {
     color: white;
     text-decoration: none;
     border-bottom: 3px solid #006fcd;
     font-size: 20px;
+    padding-bottom: 2px;
+    margin-left: 10px;
 }
 
 hr {
@@ -56,6 +55,8 @@ hr {
     margin-bottom: 20px;
     border-color: #2e393d;
 }
+
+/* About Me section styling */
 
 #about-me {
     margin-bottom: 50px;
@@ -68,4 +69,68 @@ hr {
 
 #about-me p {
     line-height: 1.5;
+}
+
+/* Project layout styling */
+
+#projects {
+    margin-bottom: 50px;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-layout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* css-mini-project (feature project) styled to have it's own line */
+
+.css-mini-project {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.css-mini-project-img-wrapper {
+    width: 50%;
+    display: block;
+    height: 300px;
+    position: relative;
+    border: 5px solid #182580;
+    margin: 0 auto;
+}
+
+.css-mini-project img {
+    width: 100%;
+    height: 100%;
+}
+
+/* styling for all title tags */
+
+.title-tag {
+    position: absolute;
+    top: 0;
+    color: 2e393d;
+    background-color: #5cc9fd;
+    padding: 5px;
+}
+
+/* styling to list the two other projects side-by-side */
+
+.horiseon-project, .prework-study-guide {
+    width: 24%;
+    height: 100px;
+    border: 5px solid #182580;
+}
+
+.horiseon-project-img-wrapper, .prework-study-guide-img-wrapper {
+    position: relative;
+}
+
+.horiseon-project {
+    margin-right: 2%;
 }
