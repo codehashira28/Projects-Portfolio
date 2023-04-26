@@ -21,6 +21,7 @@ header {
     border-left: 5px inset gray;
     border-right: 5px inset gray;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -49,6 +50,11 @@ nav a {
     font-size: 20px;
     padding-bottom: 2px;
     margin-left: 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #182580;
 }
 
 hr {
@@ -152,4 +158,36 @@ footer img {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
+
 }
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 1000px) {
+    .project-layout {
+        flex-direction: column;
+    }
+
+    .horiseon-project, .prework-study-guide {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .css-mini-project-img-wrapper {
+        height: 600px;
+        
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+  }
