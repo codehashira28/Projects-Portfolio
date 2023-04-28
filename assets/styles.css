@@ -1,6 +1,6 @@
 /* CSS reset styling */
 html, * {
-    padding: 0;
+    padding: 0;   /* code from Anthony Cooper for css reset */
     margin: 0;
     box-sizing: border-box;
     font-family: sst;
