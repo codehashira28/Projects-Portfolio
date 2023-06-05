@@ -12,7 +12,7 @@ N/A
 
 ## Usage
 
-The portfolio is a responsive webpage with navigational links at the top of the page that can be used to quickly navigate to any section of the portfolio. Projects in the "Projects" section are organized, clickable links that will navigate the user to the deployed application once clicked, and the "Contact" section contains a clickable logo that links to my Github repositories. In the projects section, you will find a "CSS cheat sheet", a project built from scratch that exercises core CSS principles, a "Study Guide" project built to provide quick access to HTML, CSS, and JavaScript notes, and a SEO (Search Engine Optimization) project meant to provide more accessibility and improve SEO through code refactoring.
+The portfolio is a responsive webpage with navigational links at the top of the page that can be used to quickly navigate to any section of the portfolio. Projects in the "Projects" section are organized, clickable links that will navigate the user to the deployed application once clicked, and the "Contact" section contains a clickable logo that links to my Github repositories. In the projects section, you will find a featured. major project displayed the largest, and smaller projects underneath.
 
 
 ![Portfolio](./assets/Projects-Portfolio.png)

@@ -94,12 +94,12 @@ hr {
 
 /* css-mini-project (feature project) styled to have it's own line */
 
-.css-mini-project {
+.big-project {
     width: 100%;
     margin-bottom: 2%;
 }
 
-.css-mini-project-img-wrapper {
+.big-project-wrapper {
     width: 80%;
     display: block;
     height: 500px;
@@ -177,7 +177,7 @@ footer {
         margin-bottom: 2%;
     }
 
-    .css-mini-project-img-wrapper {
+    .big-project-wrapper {
         height: 600px;
         
     }
